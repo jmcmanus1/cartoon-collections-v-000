@@ -20,5 +20,5 @@ end
 
 def find_the_cheese(array)
   cheese = ["cheddar", "gouda", "camembert"]
-  array.select {|word| word.include? cheese }
+  array.select {|word| word.include?(cheese)}
 end
