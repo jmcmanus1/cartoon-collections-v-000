@@ -19,7 +19,7 @@ def long_planeteer_calls(calls)
 end
 
 def find_the_cheese(array)
-  #cheese = ["cheddar", "gouda", "camembert"]
-  if array.select {|word| word.include?("cheddar")}.join(" ")
+  cheeses = ["cheddar", "gouda", "camembert"]
+  array.find {|food| cheeses.include?(food)}
   end
 end
