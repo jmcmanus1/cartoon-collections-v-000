@@ -22,5 +22,5 @@ def find_the_cheese(array)
   #cheese = ["cheddar", "gouda", "camembert"]
   if array.select {|word| word.include?("cheddar")}.join(" ")
   else nil 
-
+  
 end
